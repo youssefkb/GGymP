@@ -83,8 +83,8 @@ html, body {
     position: fixed;
     top: 145px;
     
-    width: 1360px;
-    height: 200px;
+    width: 89.5vw;
+    height: 27vh;
     box-shadow: 0px 5px 10px black;
     box-sizing: border-box;
     border-radius: 16px;
