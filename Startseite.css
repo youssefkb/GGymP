@@ -280,3 +280,20 @@ html, body {
 .nav-link:hover {
     text-decoration: underline;
 }
+
+/* Für große Bildschirme (PCs) */
+@media (min-width: 1024px) {
+    .box {
+        width: 50%;
+        height: 300px;
+    }
+}
+
+/* Für mobile Geräte */
+@media (max-width: 1023px) {
+    .box {
+        width: 90%;
+        height: 150px;
+    }
+}
+
