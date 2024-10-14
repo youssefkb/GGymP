@@ -1,0 +1,242 @@
+
+#Scroll-roller {
+    border: 0;
+    height: 1130px;
+    width: 100%;
+    max-width: 1280px;
+    border-radius: 32px;
+    margin: 16px auto;
+    background-color: white;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+#Startbild{
+    text-align: center;
+    float: left;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-image: url(Startbild.jpeg);
+    background-position: center;
+    background-size: 100% 100%;
+
+
+
+
+}
+
+#Starttext {
+    width: 350px;
+    height: 250px;
+    left: 60px;
+}
+
+#Startbild1{
+
+    width: 50%;
+    height: 550px;
+    border: 0px solid black;
+    position: relative;
+    top: 0;
+    right: 0px;
+    text-align: center;
+    float: right;
+    margin-top: 0;
+
+    border-top-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    background-repeat: no-repeat;
+    background-image: url(images.jpeg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+#Starttext1{
+    position: relative;
+    text-align: center ;
+    float: left;
+    color: rgb(215, 215, 215);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: "Century Gothic";
+}
+
+#Startbild2{
+
+    width: 450px;
+    height: 250px;
+    border: 0px solid black;
+    position: relative;
+    top:0;
+    left: 40px;
+    text-align: center;
+    float: left;
+    margin: 45px;
+    margin-top: 220px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-image: url(images.jpeg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#Starttext2{
+
+    width: 450px;
+    height: 250px;
+    border: 0px solid black;
+    position: relative;
+    color: rgb(0, 0, 0);
+    top:0;
+    left: 40px;
+    text-align: center ;
+    float: left;
+    margin: 45px;
+    margin-top: 220px;
+    border-radius: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: "Century Gothic";
+}
+
+
+
+
+#Abschnitt2{
+    width: 100%;
+    max-width: 1280px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 550px;
+    border: 0px solid black;
+    position: relative;
+    top: 30px;
+    box-shadow: -10px 8px 30px silver;
+    background-color: rgb(92, 92, 92);
+    background-image: linear-gradient(#d3d3d3, #333131, #726d6d);
+    background-size: 5px 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#Shop-Link {
+    width: 15%;
+    height: 10%;
+    border: 0px solid black;
+    top: 65%;
+    left: -14%;
+    position: relative;
+    float: left;
+    border-radius: 24px;
+    background-color: rgb(61 58 58);
+    box-shadow: -1px 4px 10px #000000;
+}
+#Shop-Link:hover{
+    background-color: #000000;
+
+}
+
+
+#Shop-Link1 {
+    width: 15%;
+    height: 10%;
+    border: 0px solid black;
+    top: 59%;
+    left: -20%;
+    position: relative;
+    float: left;
+    border-radius: 24px;
+    background-color: rgb(61 58 58);
+    box-shadow: -1px 4px 10px #000000;
+}
+
+#Shop-Link1:hover{
+    background-color: #000000;
+
+}
+
+#Abschnitt3 {
+    width: 100%;
+    max-width: 1280px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 0px solid black;
+    position: relative;
+    top: 60px;
+    box-shadow: 0px 8px 20px gray;
+    background-color: rgb(0, 0, 0);
+    background-size: 5px 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.Vorteile{
+    position: relative;
+    width: 15%;
+    height: 30%;
+    border: 0px solid rgb(0, 0, 0);
+    margin: 4%;
+    margin-top: 10%;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 20%;
+    float: left;
+    text-align: center;
+
+}
+
+.Text-Vorteile{
+    position: relative;
+    width: 18%;
+    height: 25%;
+    border: 0px solid rgb(0, 0, 0);
+    margin: 3%;
+    margin-top: -1%;
+    margin-left: 3.5%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20%;
+    float: left;
+    text-align: center; 
+    font-family: "Century Gothic";
+    font-size: 150%;
+    font-weight: bold;
+    
+
+
+
+
+}
+
+
+#Abschnitt4 {
+    width: 100%;
+    max-width: 1280px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 0px solid black;
+    position: relative;
+    top: 80px;
+    box-shadow: 0px 8px 20px gray;
+    background-color: rgb(255, 255, 255);
+    background-size: 5px 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
